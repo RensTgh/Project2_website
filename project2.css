@@ -1,0 +1,11 @@
+img{
+    border-radius: 10px;
+}
+
+.card{
+    border: 5px solid #ffc107;
+}
+
+.card a img{
+    object-fit: fill;
+}
