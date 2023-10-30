@@ -1,5 +1,10 @@
+*{
+    font-size: 20px;
+}
+
 img{
     border-radius: 10px;
+    width: 600px;
 }
 
 .card{
@@ -8,4 +13,12 @@ img{
 
 .card a img{
     object-fit: fill;
+}
+
+.container img{
+    height: 700px;
+}
+
+.container{
+    margin-top: 5px;
 }

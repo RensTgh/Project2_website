@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
 
 
@@ -16,6 +16,9 @@
 
 
     <link rel="stylesheet" href="project2.css">
+
+    <link rel="stylesheet" href="vendor/vendor/OwlCarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/vendor/OwlCarousel2/assets/owl.theme.default.min.css">
 </head>
 
 
@@ -39,9 +42,6 @@
                 <a class="nav-link active" href="hobby.html"><i class="bi bi-controller"></i> Intresses/hobby's</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="ervaring.html"><i class="bi bi-hammer"></i> Ervaring</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="contact.html"><i class="bi bi-chat-left-text"></i> Contact</a>
               </li>
             </ul>
@@ -49,41 +49,34 @@
         </div>
       </nav>
 <!-- navbar -->
-
-
-<div class="container mt-5">
-  <div class="col-md-12">
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/cafe.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
+<div class="container">
+  <h1>Intresses en hobby's</h1>
+  <p>Mijn intresses zijn vooral op cafe gaan met vrienden en gamen.</p>
 </div>
 
 
-
+<div class="container">
+  <div class="owl-carousel owl-theme owl-drag owl-">
+    <div class="item"> <img src="images/bar (1) (1).jpg" alt=""> </div>
+    <div class="item"> <img src="images/cafe.jpg" alt=""> </div>
+    <div class="item"> <img src="images/mojito.jpg" alt=""> </div>
+    <div class="item"> <img src="images/controllers (1).jpg" alt=""> </div>
+    <div class="item"> <img src="images/gamen.jpg" alt=""> </div>
+    <div class="item"> <img src="images/lan party (1).jpg" alt=""> </div>
+  </div>
+</div>
+<div class="container">
+  <p>
+  Het samenkomen met vrienden om te genieten van een drankje en gamen is een fantastische manier om te ontspannen en te genieten van elkaars gezelschap. Deze hobby's bieden niet alleen een gelegenheid om te ontstressen, maar ook om sterke banden te smeden en onvergetelijke herinneringen te creëren.
+  
+  Het gezellige samenzijn met vrienden, vergezeld van een verfrissend drankje, zorgt voor een informele en ontspannen sfeer. Het delen van verhalen, lachen om grappen en het bespreken van allerlei onderwerpen, allemaal terwijl je geniet van je favoriete drankje, maakt deze momenten echt bijzonder. Of het nu gaat om een koud biertje, een verfijnde wijn of een heerlijke frisdrank, de keuze aan drankjes draagt bij aan de diversiteit en het plezier van de ontmoeting.
+  
+  Daarnaast voegt gamen een extra dimensie toe aan deze bijeenkomsten. Het competitieve element, de uitdagingen en het plezier van het samen spelen van verschillende spellen brengt een opwindende energie met zich mee. Of het nu gaat om coöperatieve spellen waarbij teamwork vereist is of om het elkaar uitdagen in competities, het gamen versterkt de band tussen vrienden en zorgt voor gedeelde ervaringen die lang bijblijven.
+  
+  De combinatie van deze twee activiteiten weerspiegelt niet alleen ontspanning, maar ook sociale interactie en teamgeest. Het genot van het samenzijn met vrienden, of het nu in persoon is of online, versterkt de vriendschappen en zorgt voor momenten vol plezier en gelach.
+  
+  Kortom, het genieten van een drankje in goed gezelschap gecombineerd met de opwinding van gamen creëert een unieke en verrijkende ervaring. Het zijn deze momenten die zorgen voor een welkome afwisseling in het dagelijks leven en waardevolle herinneringen vormen die een leven lang meegaan.</p>
+</div>
 <!-- Footer -->
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
@@ -93,7 +86,6 @@
         </svg>
       </a>
       <span class="text-muted">© Tengrootenhuysen Rens <br> NR: 0474693181</span>
-      
     </div>
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
       <li class="ms-3 m-1">
@@ -109,6 +101,22 @@
   </footer>
   <!-- footer -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="vendor/vendor/OwlCarousel2/owl.carousel.min.js"></script>
+
+      <script>
+        $(document).ready(function(){
+          $(".owl-carousel").owlCarousel({
+            autoplay: true,
+            smartspeed: true,
+            items: 1
+          });
+        });
+      </script>
+
+
+
 </body>
 
 
